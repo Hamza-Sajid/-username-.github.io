@@ -35,6 +35,21 @@
   margin: auto;
 
 }
+.certi15
+{
+  background-image: url("../assets/img/Certificates/3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center;
+
+  width: 60%;
+  height: 600px;
+  display: block;
+  border: 3px solid black;
+  border-radius: 1px;
+  margin: auto;
+
+}
 
 .texts
 {
