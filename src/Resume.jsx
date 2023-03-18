@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "./assets/cv1.jpg";
+import CV from "./assets/cv1.png";
 import Header from "./Components/Header";
 import { Link } from "react-router-dom";
 import { HiHome } from "react-icons/hi2";
