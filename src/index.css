@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.name
+{
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+.email
+{
+  font-family: 'Edu NSW ACT Foundation', cursive;
+
+}
+
+.heading
+{
+  font-family: 'Open Sans', sans-serif  ;
+}
+
+.normal_font
+{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+/* DESIGN % ROUTEATE */
+
+
