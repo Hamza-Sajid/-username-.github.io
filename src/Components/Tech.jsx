@@ -1,5 +1,4 @@
 import React from "react";
-import Curve from "../assets/curve.svg";
 import JSLogo from "../assets/js.png";
 import ReactLogo from "../assets/React.png";
 import Node from "../assets/node.png";
@@ -39,6 +38,7 @@ function Tech() {
           <img
             width={120}
             className="rounded-xl inline cursor-pointer
+            relative -left-12 sm:left-0 top-8 sm:top-0
             transform hover:scale-150 hover:rotate-12 hover: transition duration-700 ease-in-out  py-2 px-4           "
             src={Node}
             alt=""
@@ -59,7 +59,10 @@ function Tech() {
         <div className="inline">
           <img
             width={120}
-            className="rounded-xl cursor-pointer inline transform hover:scale-150 hover:rotate-12 hover: transition duration-700 ease-in-out  py-2 px-4           "
+            className="rounded-xl cursor-pointer inline transform hover:scale-150 hover:rotate-12 hover: transition duration-700 ease-in-out  py-2 px-4           
+            
+            relative sm:top-0 top-16
+            "
             src={Figma}
             alt=""
           />

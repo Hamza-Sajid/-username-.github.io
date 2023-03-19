@@ -5,7 +5,6 @@ import Iancon from "./assets/iancon.jpeg";
 import techkaro from "./assets/techkaro.png";
 import coursera from "./assets/coursera.png";
 import UETSummit from "./assets/Summit.jpg";
-import VU from "./assets/VU.png";
 
 import { HiHome } from "react-icons/hi2";
 

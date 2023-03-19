@@ -16,7 +16,7 @@ function Projects() {
         <div>
           <a href="https://github.com/Hamza-Sajid/ApniDukan-E-commerece-Store">
             <img src={P1} width="500" alt="" className="" />
-            <p className="text-xl relative -top-10 text-gray-700 email text-center">
+            <p className="text-xl relative -top-6 sm:-top-10 text-gray-700 email text-center">
               E-commerce Store
             </p>
           </a>
@@ -25,7 +25,7 @@ function Projects() {
         <div>
           <a href="https://github.com/Hamza-Sajid/Resume-Generator">
             <img src={P2} width="500" alt="" />
-            <p className="text-xl relative -top-10 text-gray-700 email text-center">
+            <p className="text-xl -top-6 sm:-top-10 text-gray-700 email text-center">
               Resume Generator
             </p>
           </a>
@@ -34,7 +34,7 @@ function Projects() {
         <div>
           <a href="https://www.figma.com/file/9GnxtpBojP6xrPbIvH5Nw5/Smart-Cruiter?node-id=0-1">
             <img src={P3} width="500" alt="" />
-            <p className="text-xl relative sm:-top-10 -top-7 text-gray-700 email text-center">
+            <p className="text-xl relative sm:-top-10 -top-1 text-gray-700 email text-center">
               FYP - ATS System || In-Progress
             </p>
           </a>
