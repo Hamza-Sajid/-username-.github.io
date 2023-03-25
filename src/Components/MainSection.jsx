@@ -16,7 +16,7 @@ function MainSection() {
             alt="profile_pic"
             className="block sm:hidden cursor-pointer mt-12 m-auto w-1/2 rounded-full transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30"
           />
-          <h2 className="text-6xl mt-12 name text-gray-900 font-semibold ">
+          <h2 className="text-5xl sm:text-6xl  mt-12 name text-gray-900 font-semibold ">
             Humza Sajid
           </h2>
           <h5 className="email text-2xl font-semibold text-gray-700">
