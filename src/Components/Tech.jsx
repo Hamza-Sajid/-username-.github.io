@@ -8,7 +8,7 @@ function Tech() {
   return (
     <div>
       <h2 className=" text-center font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-gray-900 to-gray-300">
-        Tools i work with
+        Technologies i work with
       </h2>
 
       <div className="w-3/4 m-auto flex flex-wrap justify-around mt-10">

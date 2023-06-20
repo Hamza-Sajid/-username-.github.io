@@ -5,8 +5,10 @@ import Iancon from "./assets/iancon.jpeg";
 import techkaro from "./assets/techkaro.png";
 import coursera from "./assets/coursera.png";
 import UETSummit from "./assets/Summit.jpg";
-
+import Nic from "./assets/Certificate.jpeg";
 import { HiHome } from "react-icons/hi2";
+import Digi from "./assets/dig.png";
+import Digi2 from "./assets/digi.png";
 
 function Certificate() {
   return (
@@ -51,7 +53,17 @@ function Certificate() {
               alt=""
             />
           </div>
-
+          <div className="">
+            <h3 className="name font-thin text-lg italic underline text-gray-700">
+              National Incubation Center , KUST
+            </h3>
+            <img
+              src={Nic}
+              width={500}
+              className="rounded-lg shadow-xl  mt-2 cursor-pointer"
+              alt=""
+            />
+          </div>
           <div className="mt-12">
             <h3 className="name font-thin text-lg italic underline text-gray-700">
               Coursera - Meta Front-End Developer Professional Certificate
@@ -70,6 +82,30 @@ function Certificate() {
             </h3>
             <img
               src={UETSummit}
+              width={800}
+              className="rounded-lg shadow-xl mt-2 cursor-pointer"
+              alt=""
+            />
+          </div>
+
+          <div className="mt-12">
+            <h3 className="name font-thin text-lg italic underline text-gray-700">
+              E-commerce Management (DigiSkills)
+            </h3>
+            <img
+              src={Digi}
+              width={800}
+              className="rounded-lg shadow-xl mt-2 cursor-pointer"
+              alt=""
+            />
+          </div>
+
+          <div className="mt-12">
+            <h3 className="name font-thin text-lg italic underline text-gray-700">
+              Introductry Freelancing (DigiSkills)
+            </h3>
+            <img
+              src={Digi2}
               width={800}
               className="rounded-lg shadow-xl mt-2 cursor-pointer"
               alt=""

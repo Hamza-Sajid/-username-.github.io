@@ -12,6 +12,7 @@ function HomePage() {
           <Header />
         </nav>
       </header>
+
       <MainSection />
 
       <div>

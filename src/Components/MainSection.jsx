@@ -25,10 +25,9 @@ function MainSection() {
 
           <p className="normal_font mt-8 text-xl text-gray-800 leading-8">
             <span className="relative -left-2 inline text-4xl italic">"</span>
-            I am a FinalYear CS Student 🎓@KUST(Kohat University Of Science &
-            Technology).
+            Fresh CS Graduate 🎓
             <br />
-            Cat 🐱lover and love to listen and discuss tech all time.
+            Cat 🐱lover, love to listen and discuss tech all time.
             <br />
             <span className="inline bg-gray-700 text-white p-1 pr-2 pl-2 mr-1 rounded-lg">
               Technically{" "}

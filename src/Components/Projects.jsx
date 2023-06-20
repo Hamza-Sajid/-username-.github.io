@@ -2,7 +2,7 @@ import React from "react";
 import P1 from "../assets/p1.jpg";
 import P2 from "../assets/p2.jpg";
 import P3 from "../assets/P3.jpg";
-import P4 from "../assets/P4.jpg";
+
 function Projects() {
   return (
     <div className="w-4/5 m-auto p-6 mt-16">
@@ -32,10 +32,10 @@ function Projects() {
         </div>
 
         <div>
-          <a href="https://www.figma.com/file/9GnxtpBojP6xrPbIvH5Nw5/Smart-Cruiter?node-id=0-1">
+          <a href="https://github.com/Hamza-Sajid/Smart-Cruiter-FYP">
             <img src={P3} width="500" alt="" />
             <p className="text-xl relative sm:-top-10 -top-1 text-gray-700 normal_font text-center">
-              FYP - ATS System || In-Progress
+              Smart Cruiter (FYP)
             </p>
           </a>
         </div>

@@ -3,10 +3,12 @@ import EmailLogo from "../assets/email.jpg";
 import { TbCertificate } from "react-icons/tb";
 import { SlUser } from "react-icons/sl";
 import { Link } from "react-router-dom";
+import Profile from "../assets/profile.png";
+import Certificate from "../assets/certificate.png";
 
 function Header() {
   return (
-    <div className="p-4 flex w-11/12 m-auto justify-between">
+    <div className="p-4 flex w-11/12 m-auto justify-between ">
       <div className="w-4/5 sm:block hidden">
         <img src={EmailLogo} width="50" className=" inline opacity-70 "></img>
         <input
@@ -20,13 +22,9 @@ function Header() {
 
       <div className=" flex sm:m-0 m-auto">
         <Link to={"/resume"}>
-          <div className="cursor-pointer ">
-            <SlUser
-              className="inline text-2xl text-gray-600
-            hover:bg-gray-700
-            hover:rounded-2xl
-            hover:text-white"
-            />
+          <div className="cursor-pointer flex flex-col items-center justify-center gap-1 w-26 h-28 bg-gray-50 sm:bg-transparent rounded-lg sm:-ml-0  -ml-28">
+            <img src={Profile} className="w-10 h-10" alt="" />
+            {/* <SlUser className="inline text-2xl text-gray-600" /> */}
             <h5
               className="ml-2 inline text-sm text-gray-700 normal_font font-semibold
           hover:bg-gray-700 hover:rounded-2xl hover:text-white p-2
@@ -36,22 +34,17 @@ function Header() {
             </h5>
           </div>
         </Link>
+
         <Link to={"/certification"}>
-          <div className="cursor-pointer inline ml-4">
-            <TbCertificate
-              className="text-3xl text-gray-600 inline
-          
-          hover:bg-gray-700
-          hover:rounded-2xl
-          hover:text-white
-          "
-            />
+          <div className="cursor-pointer flex flex-col items-center justify-center gap-1  w-26 h-28  bg-gray-50 sm:bg-transparent rounded-lg sm:-ml-0  ml-6">
+            {/* <SlUser className="inline text-2xl text-gray-600" /> */}
+            <img src={Certificate} className="w-10 h-10" alt="" />
             <h5
               className="ml-2 inline text-sm text-gray-700 normal_font font-semibold
           hover:bg-gray-700 hover:rounded-2xl hover:text-white p-2
           "
             >
-              Certificate
+              Certification
             </h5>
           </div>
         </Link>
