@@ -21,8 +21,8 @@ function Certificate() {
 
       <div className="w-4/5 m-auto  mt-12">
         <Link to={"/"}>
-          <button>
-            <HiHome className="text-3xl text-gray-700 border-2 border-solid rounded-xl" />
+          <button className=" p-2 border-2 border-solid rounded-xl bg-gray-100 border-gray-200 hover:bg-gray-700 -mt-12 hover:text-white">
+            <HiHome className="text-3xl text-gray-700  hover:text-white" />
           </button>
         </Link>
         <h2 className="name text-center text-4xl font-semibold text-gray-800">

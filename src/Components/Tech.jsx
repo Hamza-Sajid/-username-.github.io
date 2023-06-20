@@ -6,7 +6,7 @@ import Mongo from "../assets/mongo.png";
 import Figma from "../assets/fig.png";
 function Tech() {
   return (
-    <div>
+    <div className="p-6">
       <h2 className=" text-center font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-gray-900 to-gray-300">
         Technologies i work with
       </h2>
