@@ -8,7 +8,7 @@ function Tech() {
   return (
     <div className="p-6">
       <h2 className=" text-center font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-gray-900 to-gray-300">
-        Technologies i work with
+        Tech I Work With
       </h2>
 
       <div className="w-3/4 m-auto flex flex-wrap justify-around mt-10">
@@ -27,7 +27,7 @@ function Tech() {
         <div className="inline relative top-14">
           <img
             width={120}
-            className="rounded-xl inline cursor-pointer
+            className="rounded-xl inline cursor-pointer mb-4
             transform hover:scale-150 hover:rotate-12 hover: transition duration-700 ease-in-out  py-2 px-4                      "
             src={ReactLogo}
             alt=""
